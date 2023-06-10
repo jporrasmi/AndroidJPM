@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtNameFA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type your name here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtLastNameFA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type your last name here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtCityFA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type the city here"/>
+
+    <EditText
+        android:id="@+id/txtAgeFA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your here"/>
+
+    <Button
+        android:id="@+id/btnPrueba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prueba de hilo"/>
+
+    <Button
+        android:id="@+id/btnCallSecondActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call second activity" />
+
+</LinearLayout>
